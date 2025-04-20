@@ -1,0 +1,6 @@
+input('first value is 5')
+input('second value is 10')
+print(5 + 10)
+print(5 - 10)
+print(5 * 10)
+print(5 / 10)
