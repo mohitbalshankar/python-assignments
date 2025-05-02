@@ -1,0 +1,9 @@
+text file name sample.txt
+file content:
+line 1: This is a sample text file.
+line 2: It contains multiple lines.
+file1 = open('sample.txt','r')
+#statements()
+reading_file = file1.read()
+print(reading_file)
+file1.close()
