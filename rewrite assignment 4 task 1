@@ -1,0 +1,10 @@
+def read_file('sample.txt'):
+  try:
+    with open(sample.txt,'r') as file:
+      print("line 1: This is a sample text file.")("line 2: It contains multiple lines.")
+      for line in file:
+        print(line.strip())
+  except FileNotFoundError:
+    print(f"Error:The file '{sample.txt}'does not exist.")
+# Usage
+read_file('sample.txt')
