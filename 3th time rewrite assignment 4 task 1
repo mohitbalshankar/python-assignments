@@ -1,0 +1,6 @@
+try:
+    with open(sample.txt.,'r')as file:
+    print("line 1: This is a sample text file.")
+         ("line 2: It contains multiple lines."):
+except FileNotFoundError:
+   print(The file 'sample.txt' was not found.)
